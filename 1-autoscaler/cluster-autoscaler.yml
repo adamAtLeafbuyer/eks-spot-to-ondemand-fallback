@@ -154,8 +154,8 @@ spec:
             - --cloud-provider=aws
             - --skip-nodes-with-local-storage=false
             - --expander=priority
-            - --nodes=0:100:eksctl-my-eks-cluster-nodegroup-spot-ng-NodeGroup-1O1JO81WZJL4W
-            - --nodes=0:100:eksctl-my-eks-cluster-nodegroup-on-demand-ng-NodeGroup-10A09YFPK0XY7
+            - --nodes=0:100:SPOT
+            - --nodes=0:100:ONDEMAND
           volumeMounts:
             - name: ssl-certs
               mountPath: /etc/ssl/certs/ca-certificates.crt
