@@ -15,7 +15,7 @@ nodeGroups:
       instanceTypes: ["m5.large", "m5d.large", "m4.large","t3.large","t3a.large","m5a.large","t2.large"]
       onDemandBaseCapacity: 0
       onDemandPercentageAboveBaseCapacity: 0
-      spotInstancePools: 1
+      spotInstancePools: "capacity-optimized"
     iam:
       withAddonPolicies:
         autoScaler: true
