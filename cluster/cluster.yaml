@@ -12,7 +12,7 @@ nodeGroups:
     maxSize: 10
     desiredCapacity: 1   
     instancesDistribution:
-      instanceTypes: ["m5.large","m4.large"]
+      instanceTypes: ["m5.large", "m5d.large", "m4.large","t3.large","t3a.large","m5a.large","t2.large"]
       onDemandBaseCapacity: 0
       onDemandPercentageAboveBaseCapacity: 0
       spotInstancePools: 1
@@ -27,7 +27,7 @@ nodeGroups:
     maxSize: 10
     desiredCapacity: 0
     instancesDistribution:
-      instanceTypes: ["m5.large","m4.large"]
+      instanceTypes: ["m5.large", "m5d.large", "m4.large","t3.large","t3a.large","m5a.large","t2.large"]
       onDemandBaseCapacity: 0
       onDemandPercentageAboveBaseCapacity: 100
     iam:
