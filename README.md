@@ -1,1 +1,1 @@
-# eks-spotNG-fallback-ondemandNG
+# eks-spot-to-ondemand-fallback
